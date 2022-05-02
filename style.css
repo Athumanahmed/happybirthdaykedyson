@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-image: url(./image/1I0A7057.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 22px;
+  color: wheat;
+}
+
+#birthdayheading {
+  background: transparent;
+  width: 100%;
+}
+
+div {
+  position: absolute;
+  bottom: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+input {
+  outline: none;
+  border: none;
+  width: 40px;
+  padding: 1px;
+  font-size: 17px;
+}
